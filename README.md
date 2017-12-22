@@ -15,7 +15,7 @@ $(window).scroll(function() {
 });
 ```
 
-> Add `bg-primary` class to visible item. by default it will add `visible-item`. 
+Add `bg-primary` class to visible item. by default it will add `visible-item`. 
 ```
 VisibleOnViewport('.col-4', 'bg-primary');
 ```
