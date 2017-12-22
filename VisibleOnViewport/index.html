@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Detect Visible Content on Viewport</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+      <div class="col-4 py-3"><img class="img-fluid" src="http://via.placeholder.com/700x432/f1f1f1"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./VisibleOnViewport.js"></script>
+  <script type="text/javascript">
+    VisibleOnViewport('.col-4', 'bg-primary');
+
+    $(window).scroll(function() {
+      VisibleOnViewport('.col-4', 'bg-primary');
+    });
+  </script>
+</body>
+</html>
