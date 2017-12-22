@@ -16,7 +16,9 @@ $(window).scroll(function() {
 ```
 
 > Add `bg-primary` class to visible item. by default it will add `visible-item`. 
-> `VisibleOnViewport('.col-4', 'bg-primary');`
+```
+VisibleOnViewport('.col-4', 'bg-primary');
+```
 
 
 ## 2. Find number of items per row
