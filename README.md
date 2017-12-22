@@ -1,5 +1,6 @@
 # Libraries
 ----------
+All the libraries are dependent on jQuery.
 
 ## 1. Visible items on screen
 
